@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script src="https://use.fontawesome.com/5415219b8d.js"></script>
+<script>
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {
+      action: "https://formspree.io/f/xeqdzybn",
+      buttonImg: "<i class='fa fa-address-book-o' style='font-size:24px'/>",
+      fields: [{
+            name: "name",
+            type: "text",
+            label: "Your Name",
+            required: true,
+          },
+          {
+            name: "email",
+            type: "email",
+            label: "Your Email",
+            required: true
+          },
+          {
+            name: "Phone number",
+            type: "text",
+            label: "Your Phone number",
+            required: true
+          },
+          {
+            type: "submit"
+          }],
+          title: "Send your Contact info",
+       description: "",
+
+       styles: {
+             fontFamily:'"Lato", sans-serif',
+             button: {
+               background: "#0213c9"
+             },
+             title: {
+               background: "#0213c9",
+               letterSpacing: "0.05em",
+               textTransform: "uppercase"
+             }
+           }  // <-- new button icon
+    });
+</script>
+  <head>
+   <title>Contact Info</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A&F Ruiz Contractors LLC | Home</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<fieldset>
+<h1>A&F Ruiz Contractors LLC</h1>
+<img src="images/af.jpg">
+  <button class="button button1"> <a href="mailto:eduvasquez1699@gmail.com"> eduvasquez1699@gmail.com </a></button><br>
+  <button class="button button1"> <a href="tel:+19563820451"> (956) 382-0451)  </a></button><br>
+  <button class="button button1"> <a href=-3786431194962678720.vcf> Add Contact </a></button>
+
+</fieldset>
+
+  </body>
+</html>
